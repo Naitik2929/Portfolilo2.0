@@ -1,0 +1,35 @@
+nav {
+    background: rgba(0, 0, 0, 0.3);
+    width: max-content;
+    display: block;
+    padding: 0.7rem 1.7rem;
+    z-index: 2;
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    bottom: 2rem;
+    gap: 1rem;
+    border-radius: 3rem;
+    backdrop-filter: blur(10px);
+}
+
+/* position: fixed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.7rem 2rem;
+  overflow: hidden;
+  z-index: 1;
+  width: 88.15%;
+  margin: auto;
+  top: 0;
+  border-bottom: solid 1px var(--primary-color);
+  opacity: 0.9;
+  top: 0;
+  box-shadow: 12px 0 15px -4px rgba(31, 73, 125, 0.8),
+  -12px 0 8px -4px rgba(31, 73, 125, 0.8);
+  box-shadow: 0 9px 0px 0px white,
+  0 -9px 0px 0px white,
+  12px 0 15px -4px rgba(31, 73, 125, 0.8),
+  -12px 0 15px -4px rgba(31, 73, 125, 0.8); */

@@ -1,0 +1,42 @@
+.embla {
+    overflow: hidden;
+}
+
+.embla__container {
+    display: flex;
+    gap: 2rem;
+    padding: 0 3rem;
+    width: 70%;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.embla__slide {
+    flex: 0 0 100%;
+    width: 100%;
+
+}
+
+video {
+    border-radius: 1rem;
+    border: 1px solid #4db5ff;
+}
+
+.git_btn {
+    display: flex;
+    padding: 1rem;
+    justify-content: center;
+    margin-top: 10px;
+
+}
+
+@media screen and (max-width: 600px) {
+    .embla__slide {
+        width: 340px;
+        border-radius: 0.5rem;
+    }
+
+    .project_name {
+        font-size: 12px;
+    }
+
+}
