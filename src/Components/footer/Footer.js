@@ -25,27 +25,6 @@ const Footer = () => {
         >
           <BsGithub />
         </a>
-        <a
-          href="https://www.instagram.com/__.naitikk.__007/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <BsInstagram />
-        </a>
-        <a
-          href="https://www.reddit.com/user/Sufficient_Ear_8462"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <BsReddit />
-        </a>
-        <a
-          href="https://open.spotify.com/user/316q6m6zcdzq3qlxboywo75fez6e"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <BsSpotify />
-        </a>
       </div>
       <div className="footer_copyright">
         <small>&copy;Naitik Patel All rights reserved</small>
